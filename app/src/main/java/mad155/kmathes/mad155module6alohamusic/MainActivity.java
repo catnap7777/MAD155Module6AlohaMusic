@@ -27,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(bDrums);
 
         mpUkulele = new MediaPlayer();
-        mpUkulele = MediaPlayer.create(this, R.raw.scream_and_shout);
+        mpUkulele = MediaPlayer.create(this, R.raw.ukulele);
         mpDrums= new MediaPlayer();
-        mpDrums = MediaPlayer.create(this, R.raw.troublemaker);
+        mpDrums = MediaPlayer.create(this, R.raw.drums);
 
         playing = 0;
 
