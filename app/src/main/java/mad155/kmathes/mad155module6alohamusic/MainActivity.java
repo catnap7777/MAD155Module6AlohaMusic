@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
         playing = 0;
 
-
     }
 
     Button.OnClickListener bUkulele = new Button.OnClickListener() {
@@ -77,8 +76,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     };
-
-
 
 
 }
